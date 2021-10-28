@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>	
+	<title>document</title>
+
+	
+</head>
+
+<body>
+
+	<form action="" method="post">
+		<fieldset>
+			<h2 align="center"><font color="#FF0000"><b>FORM BIODATA</b></font></h2><br>
+
+		<tr><td> <label for="nim">NIM	:</label></td><td><input required type="text" name="nim" id="nim" placeholder="Masukkan Nim Anda" /></td></tr><br>
+		
+		<label for="nama">Nama	:</label>
+		<input required type="text" name="nama" id="nama"> <br>
+		
+		<label for="JK">Jenis Kelamin	:</label>
+		<input type="radio" name="JK" id="JK" value="L"> Laki-Laki
+		<input type="radio" name="JK" id="JK" value="P"> Perempuan <br>
+		
+		<label for="jurusan">Jurusan	:</label>	
+		<select name="Jurusan">
+			<option value="">Pilih Jurusan</option>
+			<option value="D3SI">D3SI</option>
+			<option value="S1RPL">S1RPL</option>
+			<option value="D3DKV">D3DKV</option>
+			<option selected value="S1ILKOM">S1ILKOM</option>
+		</select> <br>
+		
+		<label for="Hobby">Hobby	:</label>	
+				<input type="checkbox" name="hobi_1" value="Menonton"> Menonton
+	
+		<input type="checkbox" name="hobi_2" value="Membaca"> Membaca
+				
+		<input type="checkbox" name="hobi_3" value="Tidur"> Tidur
+			
+		<input type="checkbox" name="hobi_4" value="Game"> Game
+				
+		<input type="checkbox" name="hobi_5" value="Shopping"> Shopping
+				
+		<input type="checkbox" name="hobi_6" value="Olahraga"> Olahraga
+		
+		<input type="checkbox" name="hobi_7" value="Gibah"> Gibah
+
+		<br>
+		
+		<label for="Catatan">Catatan	:</label>	
+		<textarea name="Catatan" id="Catatan" cols="50" rows="3"></textarea> <br>
+		
+		<label for="Foto">FOTO 	:</label>
+		<input type="submit" name="submit" value="Choose File"> <br>
+		
+		<label for="Email">EMAIL	:</label>
+		<input required type="text" name="Email" id="nim"> <br>
+		
+		<label for="Sandi Login">SANDI LOGIN	:</label>
+		<input required type="text" name="Sandi" id="Sandi"> <br>
+		
+		<label for="Ulangi Sandi">ULANGI SANDI	:</label>
+		<input required type="text" name="Sandi" id="Sandi" placeholder="Masukkan Ulang Sandi Anda"> <br>
+		<br>
+	
+
+		<input type="submit" name="submit" value="Simpan Data">
+		<input type="reset" value="Batal">
+
+		</fieldset>
+		</form>
+</body>
+</html>
